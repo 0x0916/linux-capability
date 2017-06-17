@@ -6,6 +6,11 @@
 
 capability 可以作用在进程上，也可以作用在程序文件上。
 
+目前，Linux 系统上实现了37种 capability。每一种 capability 控制的操作请参见：[man 7 capabilities](http://www.man7.org/linux/man-pages/man7/capabilities.7.html)。
+
+
+
+
 每个进程都有四个和capability有关的位图：
 
 * Inheritable
